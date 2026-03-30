@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: neondb
+    database: neondb
+    schema: public        # or whatever schema your tables are in
+    tables:
+      - name: customers
+      - name: order_items
+      - name: orders
+      - name: products
